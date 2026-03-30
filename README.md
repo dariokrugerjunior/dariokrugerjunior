@@ -4,6 +4,13 @@ Engenheiro de software com atuação em backend e sistemas distribuídos, focado
 
 Trabalho no desenho e evolução de serviços escaláveis, definição de contratos entre sistemas, estratégias de consistência e modelagem de dados orientada a performance, combinando engenharia de software com uso pragmático de inteligência artificial em ambientes reais.
 
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
+![Node](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![Machine Learning](https://img.shields.io/badge/Machine%20Learning-102230?style=for-the-badge&logo=python)
+![Deep Learning](https://img.shields.io/badge/Deep%20Learning-FF6F00?style=for-the-badge&logo=tensorflow)
+
 ---
 
 ## Sobre mim
