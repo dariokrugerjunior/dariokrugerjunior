@@ -1,86 +1,103 @@
 # Dario Kruger Junior
 
-Engenheiro de software com foco em backend, arquitetura distribuida e construcao de sistemas orientados a alta disponibilidade, throughput previsivel e operacao sustentavel em producao. Trabalho no desenho de servicos escalaveis para cenarios de alta carga, contratos entre sistemas, estrategias de consistencia, observabilidade e performance de banco de dados, combinando engenharia de software com uso pratico de inteligencia artificial.
+Engenheiro de software com atuação em backend e sistemas distribuídos, focado na construção de plataformas que operam sob alta carga, com previsibilidade de throughput, controle de concorrência e resiliência em produção.
 
-<img src="https://github-readme-stats.vercel.app/api?username=dariokrugerjunior&show_icons=true&theme=dark" />
+Trabalho no desenho e evolução de serviços escaláveis, definição de contratos entre sistemas, estratégias de consistência e modelagem de dados orientada a performance, combinando engenharia de software com uso pragmático de inteligência artificial em ambientes reais.
+
+---
 
 ## Sobre mim
 
-Atuo na construcao de plataformas backend e arquiteturas orientadas a eventos, com enfase em servicos que precisam suportar crescimento de carga, concorrencia real e regras de negocio que nao toleram inconsistencias silenciosas. Meu trabalho passa por definicao de limites de contexto, integracao entre microservicos, modelagem de dados, tuning de consultas e desenho de pipelines assincronos para processamento de alto volume.
+Atuo na construção de arquiteturas orientadas a eventos e microserviços que precisam lidar com concorrência real, crescimento contínuo de carga e regras de negócio que não permitem inconsistência silenciosa.
 
-Tambem aplico inteligencia artificial de forma integrada ao backend, conectando modelos de classificacao, fluxos de NLP e LLMs a APIs, filas, persistencia e observabilidade. O foco nao esta em prototipos isolados, mas em sistemas que entregam resposta util, rastreabilidade operacional e custo controlado em producao.
+Meu trabalho envolve definição de limites de contexto, desenho de integrações entre serviços, modelagem de dados para alto volume, tuning de queries e construção de pipelines assíncronos capazes de sustentar throughput elevado com previsibilidade operacional.
+
+Tenho forte atuação na camada de persistência e consistência, garantindo que decisões de arquitetura reflitam diretamente em comportamento sob carga, observabilidade e capacidade de evolução do sistema.
+
+Além disso, integro inteligência artificial diretamente ao backend, conectando modelos a fluxos de execução, filas, persistência e mecanismos de auditoria — com foco em sistemas que funcionam em produção, e não apenas em protótipos isolados.
+
+---
 
 ## IA aplicada
 
-Uso IA como parte da arquitetura do produto, nao como camada decorativa.
+Uso inteligência artificial como parte da arquitetura do sistema, não como camada acessória.
 
-- **Machine Learning:** classificacao, analise de dados, enriquecimento de informacao e suporte a decisao baseado em sinais operacionais e dados de negocio.
-- **Deep Learning:** integracao de modelos neurais para cenarios objetivos, com pipeline de entrada, validacao, persistencia de resultados e exposicao via servicos backend.
-- **NLP:** processamento de linguagem natural para extracao de intencao, tratamento de texto, categorizacao e automacao de fluxos conversacionais.
-- **LLMs em producao:** geracao de resposta, sumarizacao, roteamento de contexto e automacao assistida, sempre integrados a regras de negocio, limites operacionais e mecanismos de auditoria.
+- **Machine Learning:** classificação, análise de padrões e enriquecimento de dados para suporte a decisões automatizadas baseadas em sinais operacionais e contexto de negócio  
+- **Deep Learning:** integração de modelos neurais em pipelines reais, com validação, persistência de inferência e exposição via serviços backend  
+- **NLP:** extração de intenção, categorização de texto e automação de fluxos conversacionais com integração a regras de negócio  
+- **LLMs em produção:** geração de resposta, sumarização e roteamento de contexto com controle de custo, rastreabilidade e governança sobre a execução  
+
+O foco está em acoplamento controlado entre IA e backend, garantindo previsibilidade, observabilidade e alinhamento com restrições operacionais do sistema.
+
+---
 
 ## Especialidades
 
-- Microservicos
-- Event-driven architecture
-- Redis para counters, locks e coordenacao de concorrencia
-- PostgreSQL com foco em performance, indexacao e partitioning
-- Processamento assincrono e workloads orientados a fila
+- Arquitetura de microserviços e definição de bounded contexts  
+- Sistemas orientados a eventos e processamento assíncrono  
+- Controle de concorrência com Redis (locks distribuídos, counters, coordenação)  
+- PostgreSQL com foco em performance, indexação e partitioning  
+- Modelagem orientada a consistência e comportamento sob carga  
+
+---
 
 ## Stack
 
 ### Backend
-
-- Java com Spring Boot
-- Node.js com NestJS
+- Java (Spring Boot)
+- Node.js (NestJS)
 - TypeScript
 
-### Banco
-
+### Banco de dados
 - PostgreSQL
 - Redis
 
-### Infra
-
+### Infraestrutura
 - Docker
 - Kubernetes
 - AWS / Azure
 
+---
+
 ## Projetos em destaque
 
-### 1. Zyntra
+### Zyntra
 
-**SaaS com IA para automacao de fluxos e operacoes orientadas a negocio.**  
-**Tecnologias:** NestJS, TypeScript, PostgreSQL, Redis, Docker, IA generativa.  
-**Diferencial tecnico:** integracao entre backend transacional e componentes de IA com foco em escalabilidade, rastreabilidade de execucao e automacao de tarefas de alto valor.
+Plataforma SaaS para automação de fluxos com integração de IA e execução orientada a eventos.
 
-### 2. DB Metrics Monitor
+**Tecnologias:** NestJS, TypeScript, PostgreSQL, Redis, Docker, LLMs  
+**Diferencial técnico:** integração entre backend transacional e componentes de IA com foco em execução assíncrona, rastreabilidade e escalabilidade sob carga  
 
-**Plataforma para monitoramento de metricas e comportamento de banco de dados.**  
-**Tecnologias:** Java, Spring Boot, PostgreSQL, observabilidade, processamento de metricas.  
-**Diferencial tecnico:** consolidacao e analise de sinais de performance, apoio a diagnostico de gargalos e visibilidade operacional para tuning e capacidade.
+---
 
-### 3. AI WhatsApp Assistant
+### DB Metrics Monitor
 
-**Assistente conversacional com IA integrado a backend e mensageria.**  
-**Tecnologias:** Node.js, NestJS, NLP, LLMs, Redis, PostgreSQL.  
-**Diferencial tecnico:** orquestracao de contexto, persistencia de interacoes, controle de fluxo assincrono e integracao da camada conversacional com servicos de negocio.
+Sistema para análise de comportamento e performance de banco de dados em ambientes de produção.
 
-## Diferenciais tecnicos
+**Tecnologias:** Java, Spring Boot, PostgreSQL, observabilidade  
+**Diferencial técnico:** correlação de sinais de performance, identificação de gargalos e suporte a decisões de tuning e capacidade  
 
-- Controle de concorrencia com Redis para locks distribuidos, counters e coordenacao de execucao
-- Otimizacao de queries com foco em latencia, planos de execucao e previsibilidade sob carga
-- Processamento de milhoes de registros com pipelines assincronos e desenho orientado a throughput
-- Uso de IA em producao com integracao real a APIs, persistencia, observabilidade e regras de negocio
+---
+
+## Diferenciais técnicos
+
+- Controle de concorrência com Redis para garantir consistência em cenários de alta disputa  
+- Otimização de queries orientada a plano de execução e comportamento sob carga  
+- Processamento de grandes volumes de dados com pipelines assíncronos e desacoplamento de workload  
+- Integração de IA em produção com foco em previsibilidade, observabilidade e controle operacional  
+
+---
 
 ## Atualmente
 
-- Automacao com IA aplicada a produtos e operacoes
-- Evolucao de SaaS com arquitetura escalavel
-- Observabilidade para sistemas distribuidos
-- Backend orientado a performance e resiliencia
+- Construção de plataformas SaaS com arquitetura escalável  
+- Automação de fluxos utilizando IA integrada ao backend  
+- Evolução de sistemas distribuídos com foco em performance e resiliência  
+- Observabilidade aplicada a sistemas críticos  
+
+---
 
 ## Contato
 
-- GitHub: [github.com/dariokrugerjunior](https://github.com/dariokrugerjunior)
-- LinkedIn: [linkedin.com/in/seu-linkedin](https://linkedin.com/in/seu-linkedin)
+- GitHub: https://github.com/dariokrugerjunior  
+- LinkedIn: https://www.linkedin.com/in/dario-kruger-junior-21b729216/
