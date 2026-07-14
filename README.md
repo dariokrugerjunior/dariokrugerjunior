@@ -6,6 +6,7 @@ Trabalho no desenho e evolução de serviços escaláveis, definição de contra
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
 ![Node](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Kafka](https://img.shields.io/badge/Apache%20Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-102230?style=for-the-badge&logo=python)
@@ -83,6 +84,33 @@ Sistema para análise de comportamento e performance de banco de dados em ambien
 
 **Tecnologias:** Java, Spring Boot, PostgreSQL, observabilidade  
 **Diferencial técnico:** correlação de sinais de performance, identificação de gargalos e suporte a decisões de tuning e capacidade  
+
+---
+
+### Urban Traffic Simulator
+
+Simulador macroscópico de tráfego urbano orientado a eventos, que modela ruas por capacidade e dispara rerroteamento de GPS em tempo real conforme o congestionamento se propaga pela malha viária.
+
+**Tecnologias:** Java 21, Spring Boot 3.4, Apache Kafka (KRaft), PostgreSQL, React, deck.gl  
+**Diferencial técnico:** arquitetura hexagonal com domínio livre de framework, rerroteamento baseado em Dijkstra reagindo a eventos de congestionamento via Kafka e streaming de estado em tempo real via SSE  
+
+---
+
+### Analytis
+
+Sistema probabilístico de previsão de futebol que estima resultados (1X2, Over/Under, BTTS) e identifica oportunidades de valor comparando as previsões dos modelos com odds ao vivo.
+
+**Tecnologias:** Python 3.12, FastAPI, scikit-learn, XGBoost, PostgreSQL, React  
+**Diferencial técnico:** modelos Dixon-Coles e XGBoost com calibração isotônica, backtesting walk-forward, gestão de banca com Kelly fracionário e acompanhamento de Closing Line Value  
+
+---
+
+### clean-pc
+
+Utilitário de limpeza de disco para Windows com interface de terminal, que analisa arquivos temporários, cache e logs e mostra exatamente o que será removido antes da execução.
+
+**Tecnologias:** TypeScript, Node.js SEA, tsup, PowerShell, GitHub Actions  
+**Diferencial técnico:** executável standalone (sem dependência de Node), proteção de diretórios críticos do sistema, detecção de symlink com guarda contra TOCTOU e simulação em dry-run antes de qualquer remoção  
 
 ---
 
