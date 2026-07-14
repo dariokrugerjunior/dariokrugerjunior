@@ -80,10 +80,10 @@ Plataforma SaaS para automação de fluxos com integração de IA e execução o
 
 ### DB Metrics Monitor
 
-Sistema para análise de comportamento e performance de banco de dados em ambientes de produção.
+Plataforma de observabilidade operacional para PostgreSQL que combina monitoramento tradicional com análise assistida por IA, respondendo sobre a saúde do banco e as ações necessárias em cenários de risco.
 
-**Tecnologias:** Java, Spring Boot, PostgreSQL, observabilidade  
-**Diferencial técnico:** correlação de sinais de performance, identificação de gargalos e suporte a decisões de tuning e capacidade  
+**Tecnologias:** Java 21, Spring Boot 3, PostgreSQL, Micrometer/Prometheus, React, TypeScript, OpenAI  
+**Diferencial técnico:** três camadas — observabilidade operacional (locks, queries em execução, cache), inteligência determinística (health score, detecção de anomalias por baseline e recomendações por correlação) e análise assistida por IA a partir de contexto operacional consolidado  
 
 ---
 
