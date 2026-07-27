@@ -135,4 +135,4 @@ Utilitário de limpeza de disco para Windows com interface de terminal, que anal
 ## Contato
 
 - GitHub: https://github.com/dariokrugerjunior  
-- LinkedIn: https://www.linkedin.com/in/dario-kruger-junior-21b729216/
+- LinkedIn: https://www.linkedin.com/in/dariokrugerjunior
